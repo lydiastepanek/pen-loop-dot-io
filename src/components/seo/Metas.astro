@@ -1,13 +1,13 @@
 ---
 const { title, description, url, socialImage, twitterImage, author } =
   Astro.props;
-let subtitle = "Lexington Themes";
+let subtitle = "Pen Loop";
 ---
 <!--
     Standard meta
  -->
 <meta charset="UTF-8" />
-<meta name="author" content="Yout name" />
+<meta name="author" content="Lydia Stepanek" />
 <meta name="theme-color" content="#f5f5f5" />
 <meta name="viewport" content="width=device-width" />
 <meta name="msapplication-TileColor" content="#f5f5f5" />
@@ -17,13 +17,13 @@ let subtitle = "Lexington Themes";
 <!--
     General meta for Open Graphs
  -->
-<meta name="title" content={`${title} - ${subtitle}`} />
+<meta name="title" content={`${title}`} />
 <meta name="description" content={description} />
 <meta name="author" content={author} />
 <!---------------------
     open graph standard
 --------------------->
-<meta property="og:title" content={`${title} - ${subtitle}`} />
+<meta property="og:title" content={`${title}`} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
@@ -45,4 +45,4 @@ let subtitle = "Lexington Themes";
   name="twitter:image"
   content={Astro.site ? `${Astro.site}${twitterImage}` : twitterImage}
 />
-<title>{title} - {subtitle}</title>
+<title>{title}</title>
