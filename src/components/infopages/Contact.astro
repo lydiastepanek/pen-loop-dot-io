@@ -1,0 +1,45 @@
+<section class="relative flex items-center w-full h-full">
+  <div class="mx-auto 2xl:max-w-7xl border-b-2 border-black 2xl:border-x-2">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-2 divide-y-2 divide-black md:divide-y-0 md:divide-x-2">
+      <div
+        class="relative p-8 lg:px-20 bg-lila-500 items-center gap-12 h-full lg:inline-flex">
+        <div class="max-w-xl lg:text-left text-center mx-auto">
+          <div>
+            <h2
+              class="text-3xl lg:text-5xl font-medium text-black text-balance mb-8">
+              Contact Info
+            </h2>
+
+            <div class="row md:gx-5 gy-5">
+              <div class="sm:col-5 md:col-4">
+                <ul class="flex flex-col space-y-8">
+                  <li>
+                    <div class="flex text-theme-dark items-center text-xl">
+                      <p class="font-semibold">Address</p>
+                    </div>
+                    <p set:html={"169 Madison Ave #11048, New York, NY 10016"} class="mt-2 leading-5 pl-8" />
+                  </li>
+                  <li>
+                    <div class="flex text-theme-dark items-center text-xl">
+                      <p class="font-semibold">Email</p>
+                    </div>
+                    <p set:html={"lydia@penloop.io"} class="mt-2 leading-5 pl-8 content" />
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block aspect-square lg:mt-0 bg-yellow-500 w-full overflow-hidden">
+        <img
+          class="object-cover h-full"
+          src="/images/address.png"
+          alt="#"
+        />
+      </div>
+    </div>
+  </div>
+</section>
