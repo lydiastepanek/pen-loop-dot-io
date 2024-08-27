@@ -8,41 +8,6 @@ const items = [
     description:
       "Embrace peer-to-peer trading without intermediaries. Trade directly with other users on our platform, enjoying the benefits of decentralization.",
   },
-  {
-    bgColor: "bg-green-500",
-    imgSrc: "/images/blob2.svg",
-    title: "Staking Rewards",
-    description:
-      "Put your crypto assets to work and earn passive income through staking, a feature that allows you to participate in network validation and reap rewards.",
-  },
-  {
-    bgColor: "bg-yellow-500",
-    imgSrc: "/images/blob3.svg",
-    title: "NFT Marketplace",
-    description:
-      "Immerse yourself in the world of non-fungible tokens (NFTs) with our marketplace. Buy, sell, and even create unique digital collectibles.",
-  },
-  {
-    bgColor: "bg-red-500",
-    imgSrc: "/images/blob4.svg",
-    title: "Instant Transactions",
-    description:
-      "Experience the convenience of near-instantaneous cryptocurrency transfers, allowing you to send and receive digital assets.",
-  },
-  {
-    bgColor: "bg-lila-500",
-    imgSrc: "/images/blob5.svg",
-    title: "Crypto Education",
-    description:
-      "Access a wealth of educational resources to expand your knowledge of blockchain technology.",
-  },
-  {
-    bgColor: "bg-green-500",
-    imgSrc: "/images/blob6.svg",
-    title: "Mobile App",
-    description:
-      "Seamlessly trade and manage your crypto assets on the go with our mobile application, offering all the features and convenience you expect.",
-  },
 ];
 ---
 
@@ -112,7 +77,7 @@ const items = [
                 class="text-3xl lg:text-7xl tracking-tight font-medium text-black">
                 Real-time <span class="block">Market Data</span>
               </p><p
-                class="text-base lg:text-base w-full mt-4 text-black max-w-xs">
+                class="text-base lg:text-base w-full mt-4 text-black md:max-w-xs">
                 Rest easy knowing your crypto assets are protected by
                 state-of-the-art security measures and encryption, ensuring the
                 safety of your digital wealth.
@@ -170,7 +135,7 @@ const items = [
                     <li
                       role="option"
                       x-bind="disableNextAndPreviousButtons"
-                      class="snap-start w-64 lg:w-96 h-full">
+                      class="snap-start w-96 h-full">
                       <div
                         class={`border-2 border-black shadow-large p-8 rounded-3xl h-full ${item.bgColor}`}>
                         <img
